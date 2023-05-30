@@ -1,3 +1,7 @@
+- Write python3 app.py (in mac / linux) or python app.py (in windows)
+- It will ask to destination translation language
+- Specify it from here and wait for the result
+
 Supported Languages codes:
 
 af: Afrikaans
