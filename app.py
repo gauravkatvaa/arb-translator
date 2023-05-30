@@ -13,7 +13,8 @@ translator = Translator()
 def translate_text(text):
     try:
         return translator.translate(text, dest=destination_translation).text
-    except:
+    except Exception as error:
+        print(error)
         print('Enables to translate file')
 
 def format_lines_to_list(original_text):
